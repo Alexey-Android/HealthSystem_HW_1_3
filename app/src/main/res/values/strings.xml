@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">HealthSystem</string>
+    <string name="Author">Александров Алексей</string>
+    <string name="System">Комплексная система мониторинга здоровья</string>
+    <string name="Name">Введите ФИО</string>
+    <string name="Age">Введите возраст</string>
+    <string name="SaveName">Сохранить</string>
+    <string name="Pressure">Записать показатели давления</string>
+    <string name="Indicators">Записать жизненные показатели</string>
+    <string name="Picture">Картинка</string>
+    <string name="SYS">Введите верхнее давление</string>
+    <string name="DIA">Введите нижнее давление</string>
+    <string name="Pulse">Введите пульс</string>
+    <string name="Tachycardia">Тахикардия</string>
+    <string name="SaveData">Сохранить</string>
+    <string name="Date">Дата и время записи давления</string>
+    <string name="HealthIndicators">Жизненные показатели</string>
+    <string name="Date2">Дата и время записи показателей</string>
+    <string name="Steps">Введите количество шагов</string>
+    <string name="SaveData2">Сохранить</string>
+    <string name="Weight">Введите вес</string>
+</resources>

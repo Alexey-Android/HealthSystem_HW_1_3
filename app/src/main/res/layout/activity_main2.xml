@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_vertical"
+    android:orientation="vertical"
+    android:padding="35dp"
+    tools:context=".Main2Activity">
+    <EditText
+        android:id="@+id/inputSYS"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/SYS"
+        android:inputType="number"
+        android:autofillHints=""
+        android:textSize="18sp"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/inputDIA"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/DIA"
+        android:inputType="number"
+        android:autofillHints=""
+        android:textSize="18sp"
+        android:layout_margin="15dp"/>
+    <EditText
+        android:id="@+id/inputPulse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="@string/Pulse"
+       android:inputType="number"
+        android:autofillHints=""
+        android:textSize="18sp"
+        android:layout_margin="15dp"/>
+    <CheckBox
+        android:id="@+id/tachycardia"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/Tachycardia"
+        android:textSize="18sp"
+        android:layout_margin="5dp"/>
+    <TextView
+        android:id="@+id/txtDate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="44dp"
+        android:text="@string/Date"
+        android:textSize="18sp"
+        android:layout_margin="15dp"/>
+
+    <Button
+        android:id="@+id/buttonSaveData"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:backgroundTint="#B2B5B6"
+        android:text="@string/SaveData"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
